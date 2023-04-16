@@ -23,9 +23,9 @@ function createProductHTML(product) {
     productContainer.classList.add("product");
     productContainer.id = product.id;
 
-    const title = document.createElement("h2");
-    title.innerText = product.name;
-    productContainer.append(title);
+    // const title = document.createElement("h2");
+    // title.innerText = product.name;
+    // productContainer.append(title);
 
     for (let i = 0; i < product.images.length; i++) {
         const imgData = product.images[i];
