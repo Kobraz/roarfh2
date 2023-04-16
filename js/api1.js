@@ -27,7 +27,7 @@ function createProductHTML(product) {
     title.innerText = product.name;
     productContainer.append(title);
 
-    for (let i = 0; i < product.images.length; i++) {
+    for (let i = 0; i < 1; i++) {
         const imgData = product.images[i];
         const img = document.createElement("img");
         img.src = imgData.src;
