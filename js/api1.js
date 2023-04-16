@@ -41,7 +41,7 @@ function createProductHTML(product) {
 
 function createProductsHTML(products) {
     for (let i = 0; i < products.length; i++) {
-        const product = products[i];
+        const product = products[1];
         createProductHTML(product);
     }
 }
