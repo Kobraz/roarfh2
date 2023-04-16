@@ -6,39 +6,40 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Author: Roar Falch Hanssen, Category: Movies">
 	<title>Square Eyes | Home</title>
-	<link rel="stylesheet" href="css/flex-style.css">
+	<link rel="stylesheet" href="css/flex-style_.css">
 	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" href="css/menu.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
-	<!-- Hotjar Tracking Code for https://roarfh1.netlify.app/ -->
-	<!-- <script>
-		(function(h,o,t,j,a,r){
-			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-			h._hjSettings={hjid:3392331,hjsv:6};
-			a=o.getElementsByTagName('head')[0];
-			r=o.createElement('script');r.async=1;
-			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-			a.appendChild(r);
-		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-	</script> -->
 </head>
 <body>
 
 <header>
-	<nav class="containerTop">
+	
+	<input type="checkbox" id="toggle">
+	
+	<nav  class="logo-link" class="containerTop">
 		<div class="divLogo">
 			<a href="/">
 			<img src="images/SquareEyes_Logo_anim.png" alt="The websites logo" class="logo">
 			</a>
 		</div>
-		<ul class="nav-links">
-			<li><a href="index.html" class="menu">Home</a></li>
-			<li><a href="genre.html" class="menu">Movies</a></li>
-			<li><a href="info.html" class="menu">About</a></li>
-			<li><a href="contact.html" class="menu">Contact</a></li>
-			<li><a href="cart.html" class="menu">Cart</a></li>
-			<li><a href="account.html" class="menu">Account</a> </li>
+
+		<label class="navbar-toggler" for="toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+		
+
+		<ul class="nav-list">
+			<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+			<li class="nav-item"><a href="genre.html" class="nav-link">Movies</a></li>
+			<li class="nav-item"><a href="info.html" class="nav-link">About</a></li>
+			<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+			<li class="nav-item"><a href="cart.html" class="nav-link">Cart</a></li>
+			<li class="nav-item"><a href="account.html" class="nav-link">Account</a> </li>
 		</ul>
 		
 	</nav>

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');
+
+input[type=text] {
+    padding: 10px;
+    box-shadow: 4px 4px 10px
+        rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    width: 95%;
+    font-family: monospace;
+}
+
+input[type=email] {
+    padding: 10px;
+    box-shadow: 4px 4px 10px
+        rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    width: 95%;
+    font-family: monospace;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+textarea {
+    padding: 10px;
+    font-family: monospace;
+    width: 95%;
+    resize: vertical;
+    border-radius: 10px;
+    border: 0.5;
+    height: 120px;
+}
+
+.textarea2 {
+    padding: 10px;
+    font-family: monospace;
+    width: 95%;
+    resize: vertical;
+    border-radius: 10px;
+    border: 0.5;
+    height: 160px;
+}
+
+.basic-styling {
+    border: 2px solid #007EA7;
+}
+
+input[type=submit] {
+    background-color: #7da2ff;
+    font-size: large;
+    font-weight: 600;
+}
+
+button {
+    background-color: #7da2ff;
+    font-size:medium;
+    font-weight: 100;
+    width: 120px;
+    border-radius: 10px;
+    border: 0.5;
+    box-shadow: 0px 4px 10px
+        rgba(0, 0, 0, 0.06);
+}
+
+.monthyearcvv {
+    width: 50px;
+}
+
+
+.text {
+    align-content: left;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%
+}
+
+hr {
+    width: 60%;
+}

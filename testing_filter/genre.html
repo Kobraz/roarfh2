@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="css/filter.css">
+    <link rel="stylesheet" href="css/flex-style.css">
+    <script defer src="js/filter.js"></script>
+    <script defer src="js/menu.js"></script>
+    <title>Square Eyes | Movies by genre</title>
+</head>
+<body>
+
+  <input type="checkbox" id="toggle">
+
+	<header>
+		<nav class="containerTop">
+			<div class="divLogo">
+				<a href="/">
+				<img src="https://roarfh1.netlify.app/images/SquareEyes_Logo_anim.png" alt="The websites logo" class="logo">
+
+				</a>
+			</div>
+      
+      <label class="navbar-toggler" for="toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+			<ul id="nav-links">
+				<li class="nav-item"><a href="index.html" class="menu-link">Home</a></li>
+        <li class="nav-item"><a href="genre.html" class="menu-link">Movies</a></li>
+				<li class="nav-item"><a href="info.html" class="menu-link">About</a></li>
+				<li class="nav-item"><a href="contact.html" class="menu-link">Contact</a></li>
+				<li class="nav-item"><a href="cart.html" class="menu-link">Cart</a></li>
+				<li class="nav-item"><a href="account.html" class="menu-link">Account</a> </li>
+			</ul>
+			
+		</nav>
+    <img src="images/menu.png" class="menu-icon" alt="menu icon" onclick="togglemenu()">
+	</header>
+
+    <main>
+
+      <section>
+        <div class="filters">
+          <span class="filter" data-filter="noFilter"><button class="filterButton">ALL</button></span>
+          <span class="filter" data-filter="action"><button>Action</button></span>
+          <span class="filter" data-filter="adventure"><button>Adventure</button></span>
+          <span class="filter" data-filter="animation"><button>Animation</button></span>
+          <span class="filter" data-filter="comedy"><button>Comedy</button></span>
+          <span class="filter" data-filter="drama"><button>Drama</button></span>
+          <span class="filter" data-filter="family"><button>Family</button></span>
+          <span class="filter" data-filter="fantacy"><button>Fantacy</button></span>
+          <span class="filter" data-filter="horror"><button>Horror</button></span>
+          <span class="filter" data-filter="mystery"><button>Mystery</button></span>
+          <span class="filter" data-filter="sci-fi"><button>Sci-Fi</button></span>
+          <span class="filter" data-filter="thriller"><button>Thriller</button></span>
+        </div>
+      </section>
+
+      <section>
+        <div class="projects">
+          <div class="project" data-filter="noFilter"><a href="movie1.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover1.jpg" alt="Fast & Furious presents Hobbs & Shaw"><span>Fast & Furious <br> presents <br><strong> Hobbs & Shaw</strong></span></a></div>
+          <div class="project hide" data-filter="action"><a href="movie1.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover1.jpg" alt="Fast & Furious presents Hobbs & Shaw"><span>Fast & Furious <br> presents <br><strong> Hobbs & Shaw</strong></span></a></div>
+          <div class="project hide" data-filter="adventure"><a href="movie1.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover1.jpg" alt="Fast & Furious presents Hobbs & Shaw"><span>Fast & Furious <br> presents <br><strong> Hobbs & Shaw</strong></span></a></div>
+          <div class="project hide" data-filter="thriller"><a href="movie1.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover1.jpg" alt="Fast & Furious presents Hobbs & Shaw"><span>Fast & Furious <br> presents <br><strong> Hobbs & Shaw</strong></span></a></div>
+          <div class="project" data-filter="noFilter"><a href="movie2.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover3.jpg" alt="Once upon a time in Hollywood"><span>Once upon a time in <br><strong>Hollywood</strong></span></a></div>
+          <div class="project hide" data-filter="comedy"><a href="movie2.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover3.jpg" alt="Once upon a time in Hollywood"><span>Once upon a time in <br><strong>Hollywood</strong></span></a></div>
+          <div class="project hide" data-filter="drama"><a href="movie2.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover3.jpg" alt="Once upon a time in Hollywood"><span>Once upon a time in <br><strong>Hollywood</strong></span></a></div>
+          <div class="project" data-filter="noFilter"><a href="movie3.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover2.jpg" alt="Godzilla - King of Monsters"><span><strong>Godzilla</strong><br>King of the Monsters</span></a></div>
+          <div class="project hide" data-filter="action"><a href="movie3.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover2.jpg" alt="Godzilla - King of Monsters"><span><strong>Godzilla</strong><br>King of the Monsters</span></a></div>
+          <div class="project hide" data-filter="adventure"><a href="movie3.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover2.jpg" alt="Godzilla - King of Monsters"><span><strong>Godzilla</strong><br>King of the Monsters</span></a></div>
+          <div class="project hide" data-filter="fantacy"><a href="movie3.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover2.jpg" alt="Godzilla - King of Monsters"><span><strong>Godzilla</strong><br>King of the Monsters</span></a></div>
+          <div class="project" data-filter="noFilter"><a href="movie4.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover8.jpg" alt="Toy Story 4"></a><span><strong>Toy Story 4</strong></span></div>
+          <div class="project hide" data-filter="animation"><a href="movie4.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover8.jpg" alt="Toy Story 4"></a><span><strong>Toy Story 4</strong></span></div>
+          <div class="project hide" data-filter="adventure"><a href="movie4.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover8.jpg" alt="Toy Story 4"></a><span><strong>Toy Story 4</strong></span></div>
+          <div class="project hide" data-filter="comedy"><a href="movie4.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover8.jpg" alt="Toy Story 4"></a><span><strong>Toy Story 4</strong></span></div>
+          <div class="project" data-filter="noFilter"><a href="movie5.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover4.jpg" alt="Scream"></a><span><strong>Scream</strong></span></div>
+          <div class="project hide" data-filter="horror"><a href="movie5.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover4.jpg" alt="Scream"></a><span><strong>Scream</strong></span></div>
+          <div class="project hide" data-filter="mystery"><a href="movie5.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover4.jpg" alt="Scream"></a><span><strong>Scream</strong></span></div>
+          <div class="project hide" data-filter="thriller"><a href="movie5.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover4.jpg" alt="Scream"></a><span><strong>Scream</strong></span></div>
+          <div class="project" data-filter="noFilter"><a href="movie6.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover5.jpg" alt="Sweetheart"></a><span><strong>Sweetheart</strong></span></div>
+          <div class="project hide" data-filter="adventure"><a href="movie6.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover5.jpg" alt="Sweetheart"></a><span><strong>Sweetheart</strong></span></div>
+          <div class="project hide" data-filter="horror"><a href="movie6.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover5.jpg" alt="Sweetheart"></a><span><strong>Sweetheart</strong></span></div>
+          <div class="project hide" data-filter="sci-fi"><a href="movie6.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover5.jpg" alt="Sweetheart"></a><span><strong>Sweetheart</strong></span></div>
+          <div class="project" data-filter="noFilter"><a href="movie7.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover6.jpg" alt="The Addams Family - Halloween"></a><span>The Addams Family<br><strong>Halloween</strong></span></div>
+          <div class="project hide" data-filter="animation"><a href="movie7.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover6.jpg" alt="The Addams Family - Halloween"></a><span>The Addams Family<br><strong>Halloween</strong></span></div>
+          <div class="project hide" data-filter="comedy"><a href="movie7.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover6.jpg" alt="The Addams Family - Halloween"></a><span>The Addams Family<br><strong>Halloween</strong></span></div>
+          <div class="project hide" data-filter="family"><a href="movie7.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover6.jpg" alt="The Addams Family - Halloween"></a><span>The Addams Family<br><strong>Halloween</strong></span></div>
+          <div class="project" data-filter="noFilter"><a href="movie8.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover7.jpg" alt="The Batman - Unmask The Truth"></a><span><strong>The Batman</strong><br>Unmask the Truth</span></div>
+          <div class="project hide" data-filter="action"><a href="movie8.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover7.jpg" alt="The Batman - Unmask The Truth"></a><span><strong>The Batman</strong><br>Unmask the Truth</span></div>
+          <div class="project hide" data-filter="adventure"><a href="movie8.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover7.jpg" alt="The Batman - Unmask The Truth"></a><span><strong>The Batman</strong><br>Unmask the Truth</span></div>
+          <div class="project hide" data-filter="fantacy"><a href="movie8.html"><img class="img" src="https://roarfh1.netlify.app/images/Square_Eyes_Cover7.jpg" alt="The Batman - Unmask The Truth"></a><span><strong>The Batman</strong><br>Unmask the Truth</span></div>
+        </div> 
+      </section>
+                      
+                      
+          
+    </main>
+
+
+</body>
+</html>
