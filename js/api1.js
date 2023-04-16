@@ -27,7 +27,7 @@ function createProductHTML(product) {
     title.innerText = product.name;
     productContainer.append(title);
 
-    for (let i = 0; i < 1; i++) {
+    for (let i = 0; i < product.images.length; i++) {
         const imgData = product.images[i];
         const img = document.createElement("img");
         img.src = imgData.src;
@@ -40,7 +40,7 @@ function createProductHTML(product) {
 }
 
 function createProductsHTML(products) {
-    for (let i = 0; i < products.length; i++) {
+    for (let i = 0; i < 1; i++) {
         const product = products[4];
         createProductHTML(product);
     }
