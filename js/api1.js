@@ -17,7 +17,7 @@ async function getProducts() {
 }
 
 function createProductHTML(product) {
-    const container = document.querySelector(".container");
+    const container = document.querySelector(".cardImg");
 
     const productContainer = document.createElement("div");
     productContainer.classList.add("product");
