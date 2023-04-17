@@ -41,7 +41,7 @@ function createProductHTML(product) {
 
 function createProductsHTML(products) {
     for (let i = 0; i < 1; i++) {
-        const product = products[65];
+        const product = products.id[65];
         createProductHTML(product);
     }
 }
