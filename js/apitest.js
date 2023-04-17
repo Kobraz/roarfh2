@@ -30,6 +30,7 @@ function createProductHTML(product) {
     for (let i = 0; i < product.images.length; i++) {
         const imgData = product.images[i];
         const img = document.createElement("img");
+        const 
         img.src = imgData.src;
         img.alt = imgData.alt;
         productContainer.append(i);
