@@ -40,7 +40,7 @@ function createProductHTML(product) {
 }
 
 function createProductsHTML(products) {
-    for (let i = 0; i < 1; i++) {
+    for (let i = 0; i < products.length; i++) {
         const product = products[4];
         createProductHTML(product);
     }
