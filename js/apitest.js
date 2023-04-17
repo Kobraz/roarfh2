@@ -41,7 +41,7 @@ function createProductHTML(product) {
 
 function createProductsHTML(products) {
     for (let i = 0; i < 1; i++) {
-        const url = new URL(fullProductURL);
+        const url = new URL("https://roarfh2.netlify.app/api.html");
         const id = id = url.searchParams.get("id");
         const product = id[65];
         createProductHTML(product);
