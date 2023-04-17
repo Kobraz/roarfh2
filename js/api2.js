@@ -2,7 +2,7 @@ const apiBase = "https://falchhanssen.net/stud";
 const wooBase = "/wp-json/wc/store";
 const productBase = "/products";
 const pagesBase = "/wp-json/wp/v2/pages";
-const productId = "/57"
+const productId = "/" + 57;
 
 const fullPagesURL = apiBase + pagesBase;
 const fullProductURL = apiBase + wooBase + productBase + productId;
