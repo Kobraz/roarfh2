@@ -5,7 +5,7 @@ const pagesBase = "/wp-json/wp/v2/pages";
 
 const fullPagesURL = apiBase + pagesBase;
 const fullProductURL = apiBase + wooBase + productBase;
-const fullProductURLExample = "https://falchhanssen.net/stud/wp-json/wc/store/products";
+const fullProductURLExample = "https://falchhanssen.net/stud/wp-json/wc/store/products/48";
 
 
 async function getProducts() {
@@ -40,7 +40,7 @@ function createProductHTML(product) {
 }
 
 function createProductsHTML(products) {
-    for (let i = 0; i < products.length; i++) {
+    for (let i = 0; i < 1; i++) {
         const product = products[i];
         createProductHTML(product);
     }
