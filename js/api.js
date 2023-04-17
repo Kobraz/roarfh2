@@ -33,6 +33,7 @@ function createProductHTML(product) {
         img.src = imgData.src;
         img.alt = imgData.alt;
         productContainer.append(img);
+        console.log(i);
     }
 
     container.append(productContainer);
