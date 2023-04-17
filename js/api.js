@@ -29,11 +29,11 @@ function createProductHTML(product) {
 
     for (let i = 0; i < product.images.length; i++) {
         const imgData = product.images[i];
+        console.log(i);
         const img = document.createElement("img");
         img.src = imgData.src;
         img.alt = imgData.alt;
         productContainer.append(img);
-        console.log(i);
     }
 
     container.append(productContainer);
