@@ -41,10 +41,9 @@ function createProductHTML(product) {
 
 function createProductsHTML(products) {
     for (let i = 0; i < 1; i++) {
-        const firstProductContainer = document.querySelector(".product");
-        const productId = firstProductContainer.id;
-        const productIdNumber = parseInt(productId);
-        const product = productIdNumber[65];
+        const url = new URL(fullProductURL);
+        const id = id = url.searchParams.get("id");
+        const product = id[65];
         createProductHTML(product);
     }
 }
