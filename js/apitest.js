@@ -41,7 +41,10 @@ function createProductHTML(product) {
 
 function createProductsHTML(products) {
     for (let i = 0; i < 1; i++) {
-        const product = products.id[65];
+        const firstProductContainer = document.querySelector(".product");
+        const productId = firstProductContainer.id;
+        const productIdNumber = parseInt(productId);
+        const product = productIdNumber[65];
         createProductHTML(product);
     }
 }
