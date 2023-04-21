@@ -20,7 +20,7 @@ async function fetchSingleProduct(id) {
     const response = await fetch(BASE_URL + PRODUCT_URL + `/${id}`);
         const result = await response.json();
         return result;
-        console.log(result);
+        // console.log(result);
     }
 
 function renderSingleProductHTML(product) {

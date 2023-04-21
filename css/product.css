@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');
+
+:root {
+    --baseblue: #7da2ff;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.movie-list {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;   
+}
+
+.featured-movies {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;   
+}
+
+.contentmod {
+    display: block;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    box-shadow: 4px 4px 5px 2px gray;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--baseblue);
+}
+
+.contentmod:hover {
+    display: block;
+    top: 0px;
+    position: relative;
+    box-shadow: 4px 4px 5px 2px rgb(55, 55, 55);
+    background-color: #97b4fc;
+    color: white;
+    border-radius: 12px;
+    padding: 5px 5px;
+    margin: 10px;
+    width: 310px;
+    height: 415px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+    transform:
+}
+
+h2 {
+    color: black;
+    text-decoration: none;
+    
+}
+
+p {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
