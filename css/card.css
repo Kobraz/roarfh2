@@ -39,6 +39,21 @@
 
 }
 
+.movie-list {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+.contentmod {
+    width: 33.33%;
+    height: 300px;
+    box-shadow: 4px 4px 5px 2px gray;
+    margin: 0 10px;
+}
+
 .card {   
     border-radius: 0.8rem;
 
