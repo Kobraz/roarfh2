@@ -32,13 +32,9 @@ I also made another page to the project for filtering movies based on genre. So 
 
 ### Installing
 
-1. Create and clone the repo:
-
 I first made a new repo on GitHub and cloned it to local. Then I added a new site on Netlify.com and connected to my repo.
 
-The next step was to copy my files from the first project (same site, that I should modify now). THen I had to commit and push the files in GitHub.
-
-2. Install the dependencies:
+The next step was to copy my files from the first project (same site, that I should modify now). Then I had to commit and push the files in GitHub.
 
 Then I started creating a WordPress installation on my private server.
 
