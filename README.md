@@ -26,7 +26,7 @@ Languages
 
 I first made a new repo on GitHub and cloned it to local. Then I added a new site on Netlify.com and connected to my repo.
 
-The next step was to copy my files from the first project (same site, that I should modify now). THen I had to commit
+The next step was to copy my files from the first project (same site, that I should modify now). THen I had to commit and push the files to
 
 This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
