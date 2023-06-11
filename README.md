@@ -24,23 +24,21 @@ Languages
 
 ### Installing
 
+1. Create and clone the repo:
+
 I first made a new repo on GitHub and cloned it to local. Then I added a new site on Netlify.com and connected to my repo.
 
-The next step was to copy my files from the first project (same site, that I should modify now). THen I had to commit and push the files to
-
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
-1. Clone the repo:
-
-```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
+The next step was to copy my files from the first project (same site, that I should modify now). THen I had to commit and push the files in GitHub.
 
 2. Install the dependencies:
 
-```
-npm install
-```
+Then I started creating a WordPress installation on my private server.
+
+I installed the woocommerce plugin to my WordPress installation to make get the webshop-features and uploded images and all the information needed.
+
+After doing this I had to get the API from my WordPress installation. Once I succeed with that I started fetching the content from the API using JavaScript.
+
+Then I had to do some work in my HTML to remove the hardcoded images and information and make the HTML ready to receive the information from the API through the JavaScript files.
 
 ### Running
 
